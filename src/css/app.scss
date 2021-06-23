@@ -1,0 +1,64 @@
+// app global css in SCSS form
+body {
+  color: #000000;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text-infor {
+  font-weight: 400;
+}
+
+.q-card img {
+  height: 55%;
+  object-fit: cover;
+}
+
+.card {
+  width: 27%;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.text-infor {
+  font-weight: 400;
+}
